@@ -18,4 +18,203 @@ ul {
 body {
   margin: 0;
   font-family: sans-serif;
+  background-color: rgb(255, 255, 255);
+}
+.main {
+  width: 228px;
+  height: 483px;
+  background-color: #f5f3f7;
+  border-radius: 20px;
+  box-shadow: 0 0 0px 10px rgb(237, 225, 225);
+  margin-inline: auto;
+  margin-top: 20px;
+}
+.box-name {
+  width: 228px;
+  height: 66px;
+  background-image: linear-gradient(to right, #8739ff 40%, #e844ff 60%);
+  border-radius: 20px 20px 6px 6px;
+  padding: 30px 15px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.box-name::before {
+  position: absolute;
+  content: "";
+  width: 129px;
+  height: 29px;
+  left: 200px;
+  top: 5px;
+  background-color: white;
+  border-radius: 0 0 14px 14px;
+}
+
+.avatar {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+.name-avatar {
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 11px;
+  color: white;
+  display: flex;
+}
+.subtitle {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 8px;
+  color: #d99eff;
+}
+.box-firs-message {
+  width: 128px;
+  height: 34px;
+  border-radius: 10px 10px 10px 4px;
+  background-color: #eee5f4;
+  padding: 5px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.firs-message {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 8px;
+  color: #9341c8;
+}
+.img-dog {
+  display: flex;
+  margin-top: 10px;
+  margin-right: 5px;
+  justify-content: end;
+  gap: 5px;
+}
+.img-firs-dog,
+.img-second-dog,
+.img-third-dog {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+}
+.third-message {
+  width: 128px;
+  height: 34px;
+  background-color: white;
+  border-radius: 10px 10px 4px 10px;
+  position: relative;
+  left: 90px;
+}
+.text-third-message {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 8px;
+  color: #6e5d7e;
+  padding: 6px 8px;
+}
+.fourd-message {
+  width: 80px;
+  height: 23px;
+  background-color: white;
+  border-radius: 10px 10px 4px 10px;
+  position: relative;
+  left: 139px;
+}
+.text-fourd-message {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 8px;
+  text-align: center;
+  color: #6e5d7e;
+}
+.five-message {
+  width: 128px;
+  height: 45px;
+  background-color: #eee5f4;
+  border-radius: 10px 10px 10px 4px;
+  margin-left: 10px;
+}
+
+.text-five-message {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 8px;
+  color: #9341c8;
+  padding: 5px;
+}
+.info-price {
+  display: flex;
+  justify-content: space-around;
+}
+.box-price {
+  width: 160px;
+  height: 32px;
+  background-image: linear-gradient(to right, #e844ff 40%, #8739ff 60%);
+  border-radius: 10px 10px 10px 4px;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 5px;
+}
+.circle {
+  width: 12px;
+  height: 12px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+.time {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 8px;
+  color: white;
+}
+.price {
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  color: white;
+}
+.box-answer {
+  width: 213px;
+  height: 34px;
+  background-color: white;
+  border-radius: 16px;
+  padding: 4px 20px;
+  margin-top: 20px;
+  margin-left: 8px;
+}
+.text-answer {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 9px;
+  color: #c5c9cc;
+}
+.button-answer {
+  position: relative;
+  content: "";
+  left: 160px;
+  top: -28px;
+  width: 25px;
+  height: 25px;
+  background-color: #3e2753;
+  border-radius: 50%;
+}
+.footer {
+  width: 311px;
+  height: 239px;
+  margin-inline: auto;
+}
+.title-footer {
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+  font-size: 40px;
+  color: #3e2753;
+}
+.text-footer {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+
+  color: #a39da9;
 }
