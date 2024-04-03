@@ -30,9 +30,10 @@ body {
   margin-top: 20px;
 }
 .box-name {
+  position: relative;
   width: 228px;
   height: 66px;
-  background-image: linear-gradient(to right, #8739ff 40%, #e844ff 60%);
+  background-image: linear-gradient(to right, #8739ff, #e844ff);
   border-radius: 20px 20px 6px 6px;
   padding: 30px 15px;
   display: flex;
@@ -44,8 +45,8 @@ body {
   content: "";
   width: 129px;
   height: 29px;
-  left: 200px;
-  top: 5px;
+  left: 50px;
+  top: -10px;
   background-color: white;
   border-radius: 0 0 14px 14px;
 }
@@ -150,7 +151,7 @@ body {
 .box-price {
   width: 160px;
   height: 32px;
-  background-image: linear-gradient(to right, #e844ff 40%, #8739ff 60%);
+  background-image: linear-gradient(to right, #e844ff, #8739ff);
   border-radius: 10px 10px 10px 4px;
   margin-top: 10px;
   margin-left: 10px;
